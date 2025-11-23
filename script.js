@@ -474,6 +474,7 @@ document.getElementById('cookieAccept').addEventListener('click', ()=>{ setCooki
 
 
 
+
 const sections = {
       home: document.getElementById('home'),
       about: document.getElementById('about'),
@@ -517,7 +518,6 @@ const sections = {
 
 
 
-
     // Collapsible lessons inside strategies
     document.querySelectorAll('.lesson .title').forEach(title => {
       title.addEventListener('click', () => {
@@ -527,7 +527,7 @@ const sections = {
       });
     });
     
-    
+   
     
         // Image popup (delegation) — works for gallery images, proof images, etc.
     const popup = document.getElementById('popup');
@@ -552,3 +552,9 @@ const sections = {
 
     // ensure home visible initially
     showSection('home');
+    
+    
+    
+    
+   
+   

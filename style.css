@@ -208,3 +208,35 @@
     /* contact */
     .contact-list{list-style:none;padding:0;margin:0}
     .contact-list li{padding:10px 0;border-bottom:1px dashed rgba(0,0,0,.04);color:var(--muted)}
+
+
+
+/* Notice Banner Styles */
+.notice-banner {
+  background-color: #ffebc2;  /* soft yellow for notice */
+  color: #333;               /* dark text for readability */
+  text-align: center;
+  padding: 15px 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  border-bottom: 2px solid #ffd700; /* subtle gold border */
+  position: sticky;          /* stays on top when scrolling */
+  top: 0;
+  z-index: 1000;
+}
+
+/* Optional: Slightly fade after a few seconds */
+.notice-banner.fade-out {
+  animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}
+
+/* General page content styling */
+.content {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
