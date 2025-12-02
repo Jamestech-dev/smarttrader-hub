@@ -552,9 +552,3 @@ const sections = {
 
     // ensure home visible initially
     showSection('home');
-    
-    
-    
-    
-   
-   
